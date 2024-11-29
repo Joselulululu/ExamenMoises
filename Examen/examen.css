@@ -1,0 +1,172 @@
+* {
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+/*
+Nav configuracion Menu
+*/
+.logo{
+    margin: 4rem 4rem 4rem 7rem;
+}
+.menuH{
+    overflow: hidden;
+    border: 0.5px solid;
+}
+.menuH a{
+    background-color: black;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    margin: auto;
+}
+
+
+.menuH :hover{
+    background-color: rgb(175, 209, 82);
+}
+ 
+.pizz{
+    width: 80%;
+    height: 80%;
+    margin: 3rem 12rem;
+    border-radius: 2rem;
+    box-shadow: -0.1rem 5px 2px rgb(31, 28, 28);
+}
+
+.font{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: black 2px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+/*Ahora ponemso el tecto junto a la tabla para que se vea ordenado*/
+.prim{
+    overflow: hidden;
+    border: none;
+    width: 20%;
+    background-color: rgb(180, 219, 74);
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.junt{
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 4rem 17rem ;
+
+}
+.siz{
+    font-size: 1.6rem;
+    text-align: left;
+}
+/*Lo mismo pero con imagen cambiando la iamgen derecha y texto izqueirda*/
+.sep{
+font-size: 2.5rem;
+text-align: center;
+}
+
+.segu{
+    display: flex;
+    flex-direction: row;
+    margin: 0.1rem 25rem 5rem ;
+
+}
+
+.min1{
+    width: 40%;
+    height: 20%;
+    border-radius: 1.5rem;
+}
+/*Ahora la imagen a la izquierda y hay una lista*/
+.lie{
+font-size: 1.4rem;
+text-align: center;
+margin: 2rem;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+}
+.ter{
+    display:flex;
+    flex: row;
+    margin: auto auto 3rem 8rem ;
+}
+/*Modificaremos el formulario*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .contacto{
+    background-color: rgb(148, 129, 129);
+    width: 75%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+
+
+.contacto h1{
+   color: white;
+   text-align: left;
+   padding: 1rem;
+   background-color: rgb(148, 129, 129);
+}
+
+
+.linea{
+   background: white;
+   height: 0.5rem;
+   width: 20%;
+   margin: 2rem 2rem 2rem 2rem;
+   background-color: white;
+}
+
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(148, 129, 129);
+}
+
+
+.formulario > *{
+   margin: 1rem 2rem 3rem 40rem;
+   padding: 1.5rem;
+   border-radius: 10rem;
+}
+/*El footer toca ahora*/
+
+.menuV{
+    overflow: hidden;
+    border: 0.5px solid;
+    margin: 2rem;
+}
+.menuV a{
+    background-color: rgb(100, 228, 100);
+    text-decoration: none;
+    float: left;
+    width: 25%;;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+
+
+
+
